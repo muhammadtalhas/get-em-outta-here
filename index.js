@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const express = require('express');
 const app = express();
 var bodyParser = require('body-parser');
+require('dotenv').config();
 
 var port = process.env.PORT || 8080;
 
